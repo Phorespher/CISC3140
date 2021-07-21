@@ -1,0 +1,31 @@
+Last login: Wed Jul 21 14:44:23 2021 from pool-108-41-140-15.nycmny.fios.verizon.net
+[akhydyro@sol28 ~]$ svnadmin create Takeinfinity
+[akhydyro@sol28 ~]$ svn checkout file:///users1/st/akhydyro/Takeinfinity
+Checked out revision 0.
+[akhydyro@sol28 ~]$ svn add something.txt
+svn: E155007: '/users1/st/akhydyro' is not a working copy
+[akhydyro@sol28 ~]$ svnadmin add something.txt
+Unknown command: 'add'
+Type 'svnadmin help' for usage.
+[akhydyro@sol28 ~]$ cd Takeinfinity
+[akhydyro@sol28 Takeinfinity]$ svn add something.txt
+svn: warning: W155010: '/users1/st/akhydyro/Takeinfinity/something.txt' not found
+svn: E200009: Could not add all targets because some targets don't exist
+svn: E200009: Illegal target for the requested operation
+[akhydyro@sol28 Takeinfinity]$ ls
+conf  db  format  hooks  locks  README.txt
+[akhydyro@sol28 Takeinfinity]$ touch something.txt
+[akhydyro@sol28 Takeinfinity]$ ls
+conf  db  format  hooks  locks  README.txt  something.txt
+[akhydyro@sol28 Takeinfinity]$ vim something.txt
+[akhydyro@sol28 Takeinfinity]$ svn add something.txt
+A         something.txt
+[akhydyro@sol28 Takeinfinity]$ svn commit -m "Let's hope that I understand this now."
+Adding         something.txt
+Transmitting file data .
+Committed revision 1.
+[akhydyro@sol28 Takeinfinity]$ vim something.txt
+[akhydyro@sol28 Takeinfinity]$ svn commit -m "Okay. Lets hope that this will do it."
+Sending        something.txt
+Transmitting file data .
+Committed revision 2.
