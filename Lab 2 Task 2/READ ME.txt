@@ -1,0 +1,19 @@
+Please Maximize screen for reading.
+
+This folder contains the over 100,000 movie titles by their movie ID.
+At first I wanted to sort them by year, but there was a problem. I could open the movie.csv file and separate them, it did not work well because the parentheses contained letters as well. There was also another problem with that sort
+of parsing (seperating a certain piece in excel and putting it on another column) it would find the first parenthesis (opening). That could not work can instead of the year, it would place another name for a certain type of movie.
+
+So I decided to sort them by name, ignoring their movie ID. So i used a command prompt system Git Bash (you can use default for the system) and I listed out what I had in the file using this prompt:
+
+$ cat movies.csv
+
+That listed what was in that file everything in a row would show up in commas like this: 193587,Bungo Stray Dogs: Dead Apple (2018),Action|Animation
+
+That seperated them by movie ID, movie name and year, and their genre. Then I decided sort them based on their column after said comma using this command:
+
+$ sort -t"," -k2 movies.csv > sorted.txt
+
+Now this has several commands in a single command. 
+The sort -t"," -k2 part of the command refers to sorting everything after a cartain character, in our case it was a comma (,), on the second column. Now it is going to sort everything based on symbo-numeric-alphabetic order.
+Meaning that would start sorting them with spaces first, then special characters then numbers and finally letters.
