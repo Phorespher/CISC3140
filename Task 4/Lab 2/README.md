@@ -1,4 +1,4 @@
-For this I used GitBash, Postman, Visual Studio, Node Js, Joi, Express 4x.
+For this I used GitBash, Postman, Visual Studio, Node Js, Joi, Express 4x. Here I created a REST API, along with get,post,put, and delete.
 
 akhyd@DESKTOP-0BQI8LO MINGW64 ~/Desktop/Something New/Lab4 task2 (main)
 $ mkdir hello-api
