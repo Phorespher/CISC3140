@@ -102,3 +102,5 @@ akhyd@DESKTOP-0BQI8LO MINGW64 ~/Desktop/Something New/Lab4 task2/hello-api (main
 $PORT = 5000
 
 Listening on port 5000...
+
+And the rest went on repeat as I used to fix some errors that visual studio gave me.
