@@ -1,4 +1,4 @@
-For this I used GitBash, Postman, Visual Studio, Node Js, Joi, Express 4x. Here I created a REST API, along with get,post,put, and delete.
+For this I used GitBash, Postman, Visual Studio, Node Js, Joi, Express 4x. Here I created a REST API, along with get,post,put, and delete. I used the http://localhost5000/api/courses/1 to get name, whether it is connectable, and delete in PostMan.
 
 akhyd@DESKTOP-0BQI8LO MINGW64 ~/Desktop/Something New/Lab4 task2 (main)
 $ mkdir hello-api
