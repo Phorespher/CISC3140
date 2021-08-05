@@ -7,13 +7,21 @@ akhyd@DESKTOP-0BQI8LO MINGW64 ~/Desktop/Something New/Lab4 task2 (main)
 $ cd hello-api
 
 akhyd@DESKTOP-0BQI8LO MINGW64 ~/Desktop/Something New/Lab4 task2/hello-api (main)
+
 $ npm install --save express
+
 npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\akhyd\Desktop\Something New\package.json'
+
 npm notice created a lockfile as package-lock.json. You should commit this file.
+
 npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\akhyd\Desktop\Something New\package.json'
+
 npm WARN Something New No description
+
 npm WARN Something New No repository field.
+
 npm WARN Something New No README data
+
 npm WARN Something New No license field.
 
 + express@4.17.1
